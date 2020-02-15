@@ -2,6 +2,8 @@ from tensorflow.keras import Sequential
 from tensorflow.keras.layers import Dense, Conv2D, MaxPool2D, Flatten, Dropout
 import tensorflow as tf
 
+import plotly
+
 # init model
 with tf.device('/gpu:0'):
     model = Sequential()
